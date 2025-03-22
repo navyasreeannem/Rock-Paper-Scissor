@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="User_Score">0</p>
+            <p>YOU</p>
+        </div>
+        <div class="score">
+            <p id="Computer_Score">0</p>
+            <p>BOT</p>
+        </div>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.JPEG" alt="Rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.JPEG" alt="Paper">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="images/scissor.JPEG" alt="Scissor">
+        </div>
+    </div>
+
+    <!-- New Section for Displaying Choices -->
+    <div class="result-display">
+        <div class="choice-display">
+            <h2>Your Choice</h2>
+            <img id="user-choice-img" src="images/question.png" alt="Your choice">
+        </div>
+        <div class="choice-display">
+            <h2>Bot's Choice</h2>
+            <img id="comp-choice-img" src="images/question.png" alt="Computer's choice">
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <script src="first.js"></script>
+</body>
+</html>
